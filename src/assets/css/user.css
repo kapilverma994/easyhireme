@@ -1,0 +1,275 @@
+/*  login */
+.login .form-group{
+    width:100%;
+}
+#usr-logn-form{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+#usr-signup-form{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+.user_login{
+    background-color: #dc3545!important;
+    color: #fff !important;
+    font-weight: bold;
+    padding: 11px 71px;
+    border-radius: 5px;
+    text-decoration: none !important;
+}
+.user_login::after{
+    content: "";
+    position: absolute;
+    top: 33px;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #dc3545 transparent transparent transparent;
+}
+.country_code{
+    border: 0;
+    background: #0000;
+    outline: none;
+}
+/*  /login */
+
+/*  manage-profile */
+.user-top-bar1{
+    padding: 11px 0px;
+    box-shadow: 0px 0px 5px 1px #ccc;
+}
+.easyhireme_logo img{
+    width:71px;
+}
+.user-logout{
+    margin-top:18px;
+}
+.user-logout a{
+    border: 1px solid red;
+    padding: 5px 13px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.user-logout span{
+    color:red;
+}
+.user-main-content{
+    margin-top:11px;
+}
+.user-left-nab-box{
+    width: 20%;
+    background: #000;
+    float: left;
+    height: 100vh;
+}
+.user-right-box{
+    width: 80%;
+    float: left;
+}
+.dash_box{
+    padding: 11px;
+    border-bottom: 1px solid #fff;
+}
+.dash_box h3{
+    color: #fff;
+    font-size: 19px;
+}
+
+.ulnavleft li a{
+    color:#fff !important;
+    padding: 7px 11px;
+    display: block;
+    cursor: pointer;
+    transition: .5s;
+    text-decoration: none;
+}
+.ulnavleft li a:hover{
+    background:#ed5922 ;    
+}
+.ulnavleft li a i:nth-child(2){
+    float: right;
+    font-size: 25px;
+}
+.active{
+    background:#ed5922; 
+}
+.manage-form label{
+    margin-top: 13px;
+}
+.manage-form .form-group{
+    width: 100%;
+}
+.manage_pro a{
+    margin-top: 44px;
+}
+/*  /manage-profile */
+
+/*  my order */
+.react-datepicker__input-container input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+.coupon select{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 9px;
+    outline: none;
+}
+.react-accordion-collapsible-container{
+    background: #eee;
+    margin-top: 13px !important;
+}
+.bookinglist_box {
+    background: #000;
+    color: #fff;
+    font-size: 13px;
+    padding: 5px 3px;
+    font-weight: 700;
+}
+.bookinglist_box div {
+    color: #fff!important;
+    font-size: 19px;
+}
+.bkb1 {
+    border: 1px solid #ccc;
+    padding: 7px 0;
+    border-radius: 10px;
+    background: #f1f1f1;
+    font-size: 13px;
+    font-weight: 700;
+}
+.bkb2 i {
+    font-size: 31px;
+    color: #777;
+}
+.bkb2 span {
+    position: absolute;
+    right: 103px;
+    top: 0;
+    z-index: 1;
+}
+.bkb2 span i {
+    font-size: 19px;
+    color: red;
+    background: #f1f1f1;
+    border-radius: 20px;
+    padding: 3px;
+}
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+.bookinglist_box2 {
+    box-shadow: 0 0 3px 3px #adb5bd;
+    padding: 0 5px;
+}
+.cod {
+    background: #204476;
+    color: #fff;
+    font-size: 11px;
+    padding: 7px 0;
+    text-align: center;
+    margin-top: 5px;
+}
+.trak_id {
+    background: #f1f1f1;
+    font-size: 13px;
+}
+.track_id1 input::placeholder{
+    color: red;
+    font-weight: 700;
+}
+.track_id1 input[type=text] {
+    color: red;
+    font-weight: 700;
+}
+.accetp_btn {
+    background: #000;
+    color: #fff;
+    border: 0;
+    padding: 6px 5px;
+    font-weight: 500;
+}
+.bookinglist_box1 {
+    border-bottom: 3px solid red;
+    padding-bottom: 13px;
+}
+.accordion_box a {
+    font-size: 17px;
+    text-decoration: none !important;
+    font-weight: 500;
+    color: #000;
+}
+.accordion_box a span:nth-child(1) {
+    width: 30%;
+    display: block;
+    float: left;
+}
+.accordion_box a span:nth-child(2) {
+    width: 30%;
+    display: block;
+    float: left;
+}
+.accordion_box a span:nth-child(2) {
+    width: 30%;
+    display: block;
+    float: left;
+}
+.orderbx{
+    height: 80vh;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.accordion_box{
+    margin-bottom: 31px;
+}
+.accordion>.card>.card-header{
+    background: #000080;
+    border-bottom: 3px solid #fff;
+    color: #fff;
+}
+.accordion>.card>.card-header a{
+    color:#fff;
+}
+.react-datepicker-popper {
+    z-index: 3;
+}
+/*  /my order */
+
+.myaddress-bg{
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+.myaddress-bg button{
+    margin-right:7px;
+}
+.my-address{
+    height:80vh;
+    overflow:auto;
+    overflow-x:hidden;
+}
+.cancel{
+    background: 0;
+    border: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+    outline: none;
+}
+.address_box1 button{
+    margin-left:7px;
+}
